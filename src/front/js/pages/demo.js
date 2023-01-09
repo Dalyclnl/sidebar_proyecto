@@ -33,6 +33,10 @@ export const Demo = () => {
 				})}
 			</ul>
 			<br />
+			<Link to="/sidebar">
+				<button className="btn btn-primary">sidebar</button>
+			</Link>
+
 			<Link to="/">
 				<button className="btn btn-primary">Back home</button>
 			</Link>
